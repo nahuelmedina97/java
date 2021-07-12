@@ -23,7 +23,20 @@ public class operadoresdeUnarios {
         int g = 5; 
         int h = g++; // primero se ultiza el valor y despues se incrementa 
         System.out.println("g = " + g);
-        System.out.println("h = " + h); 
+        System.out.println("h = " + h);
+
+        //decremento
+        //1.predecremento
+         int i = 2;
+         int j = --i;
+      System.out.println("i = " + i); // ya esta drecrementada
+      System.out.println("j = " + j);
+
+      //2.postdecremento
+       int k = 4;
+       int l = k--; //primero se ultiliza el valor de la variable y queda pendiente decremento
+        System.out.println("k = " + k); //tenia pendiente un decremento
+        System.out.println("l = " + l);
         
         
         
