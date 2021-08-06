@@ -15,7 +15,7 @@ public class inicio<altura, peso, edad, nombre> {
         double peso = Double.parseDouble(JOptionPane.showInputDialog("Introduce tu peso:"));
 
         double altura = Double.parseDouble(JOptionPane.showInputDialog("Introduce tu Altura:"));
-        Persona objetoPersona = new Persona(nombre,edad,peso,altura); 
+        Persona objetoPersona = new Persona(nombre,edad,peso,altura);
 
 
         JOptionPane.showMessageDialog(null,objetoPersona.datos() + "\n"
